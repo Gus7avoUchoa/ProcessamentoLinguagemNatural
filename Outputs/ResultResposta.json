@@ -1,0 +1,122 @@
+{
+    "documents": [
+        {
+            "id": "id__2249",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.66,
+                "neutral": 0.13,
+                "negative": 0.2
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.82,
+                        "neutral": 0.18,
+                        "negative": 0
+                    },
+                    "offset": 0,
+                    "length": 28,
+                    "text": "Olá, Fulano, bom dia!       ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.51,
+                        "neutral": 0.47,
+                        "negative": 0.02
+                    },
+                    "offset": 28,
+                    "length": 10,
+                    "text": "Tudo bem? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.98,
+                        "neutral": 0.02,
+                        "negative": 0
+                    },
+                    "offset": 38,
+                    "length": 16,
+                    "text": "Espero que sim.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 54,
+                    "length": 82,
+                    "text": "      Sinto muito pelo desencontro de informações sobre a liberação do PRO;       ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.98,
+                        "negative": 0.01
+                    },
+                    "offset": 136,
+                    "length": 124,
+                    "text": "Para quem finalizou na data do dia 14/02/2024, será disponibilizado na data de hoje 19/02/024 para todos os usuários.       ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.96,
+                        "negative": 0.04
+                    },
+                    "offset": 260,
+                    "length": 53,
+                    "text": "Você irá receber uma comunicação avisando do acesso.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 313,
+                    "length": 36,
+                    "text": "      Tenha uma ótima semana!       ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.09,
+                        "neutral": 0.9,
+                        "negative": 0
+                    },
+                    "offset": 349,
+                    "length": 21,
+                    "text": "Conte sempre conosco.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}

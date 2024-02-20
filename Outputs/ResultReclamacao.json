@@ -1,0 +1,143 @@
+{
+    "documents": [
+        {
+            "id": "id__1990",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.22,
+                "neutral": 0.03,
+                "negative": 0.75
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.9,
+                        "neutral": 0.09,
+                        "negative": 0
+                    },
+                    "offset": 0,
+                    "length": 202,
+                    "text": "Estava participando de um bootcamp quando recebi alguns e-mails e mensagens no WhatsApp informando que deveria concluir o curso até o dia 14 (quarta-feira) para ganhar uma bolsa na DIO PRO por 30 dias. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.03,
+                        "negative": 0.96
+                    },
+                    "offset": 202,
+                    "length": 117,
+                    "text": "Agilizei-me e terminei o curso no dia 11 (domingo), porém não recebi nada do que foi prometido, nem mesmo um e-mail. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.12,
+                        "neutral": 0.01,
+                        "negative": 0.86
+                    },
+                    "offset": 319,
+                    "length": 102,
+                    "text": "Ao entrar em contato via WhatsApp, recebo apenas respostas automáticas e nenhum problema é resolvido. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.07,
+                        "neutral": 0.01,
+                        "negative": 0.92
+                    },
+                    "offset": 421,
+                    "length": 88,
+                    "text": "Eles solicitam que eu entre em contato por e-mail com o suporte, o que fiz sem sucesso. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 509,
+                    "length": 123,
+                    "text": "Eu estava interessado na bolsa para avaliar o curso e decidir se valeria a pena comprar, mas aparentemente não vale a pena.",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.09,
+                                "negative": 0.91
+                            },
+                            "offset": 534,
+                            "length": 5,
+                            "text": "bolsa",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.06,
+                                "negative": 0.94
+                            },
+                            "offset": 555,
+                            "length": 5,
+                            "text": "curso",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/1"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.09,
+                                "negative": 0.91
+                            },
+                            "offset": 627,
+                            "length": 4,
+                            "text": "pena",
+                            "isNegated": true
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 620,
+                            "length": 4,
+                            "text": "vale",
+                            "isNegated": true
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
